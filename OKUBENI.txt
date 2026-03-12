@@ -1,0 +1,28 @@
+╔══════════════════════════════════════════════════════════╗
+║        ÇİNCE SAYILAR VE FİYATLAR — KURULUM             ║
+╚══════════════════════════════════════════════════════════╝
+
+YÖNTEM 1 — PWA Olarak Telefona / Masaüstüne Yükle (Önerilen)
+──────────────────────────────────────────────────────────────
+1. Bu klasördeki BASLAT.bat dosyasına çift tıkla
+2. Siyah bir komut penceresi açılır, kapama!
+3. Chrome otomatik açılır: http://localhost:8765
+4. Chrome adres çubuğunun sağında 💻 veya ➕ simgesi çıkar
+5. "Cince Sayilar'ı yükle" → Tıkla → Masaüstüne eklenir!
+6. Artık masaüstündeki ikona tıklayarak açabilirsin.
+   (Siyah pencere arka planda açık kalmalı)
+
+YÖNTEM 2 — Direkt Aç (PWA olmadan, en basit)
+─────────────────────────────────────────────
+index.html dosyasına çift tıkla → Chrome'da açılır.
+Ses çalışır, sadece "Yükle" butonu görünmez.
+
+NOT: Ses için internet bağlantısı gereklidir.
+     (Google Translate sesi kullanılıyor)
+
+DOSYALAR:
+  index.html    → Ana uygulama
+  manifest.json → PWA tanımı
+  sw.js         → Offline desteği
+  BASLAT.bat    → Sunucu başlatıcı
+  icon-*.png    → Uygulama ikonları
